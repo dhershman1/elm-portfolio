@@ -8,6 +8,9 @@ elm-stuff
 # elm-repl generated files
 repl-temp-*
 
+# elm.js since its a compiled file
+elm.js
+
 ### macOS ###
 # General
 .DS_Store
