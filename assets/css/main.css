@@ -107,6 +107,10 @@ footer {
   text-align: center;
 }
 
+.tag__wrapper {
+  text-align: center;
+}
+
 .articles {
   width: 60%;
   display: grid;
@@ -131,7 +135,8 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-.article__tag {
+.article__tag,
+.tag {
   display: inline-block;
   border: 1px solid var(--border);
   background-color: var(--secondary-light);
