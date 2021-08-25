@@ -1,0 +1,32 @@
+{
+  "name": "elm-portfolio",
+  "version": "1.0.0",
+  "description": "Elm front end for dusty codes portfolio",
+  "main": "elm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "elm make src/Main.elm --output elm.js --optimize && terser elm.js --config-file terser.config.json --compress --mangle --output=elm.js",
+    "dev": "elm-live src/Main.elm -H -u -o -- --output=elm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhershman1/elm-portfolio.git"
+  },
+  "keywords": [
+    "elm",
+    "portfolio"
+  ],
+  "author": "Dustin Hershman<dustinh17@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhershman1/elm-portfolio/issues"
+  },
+  "homepage": "https://github.com/dhershman1/elm-portfolio#readme",
+  "dependencies": {
+    "elm": "0.19.1-5",
+    "terser": "5.7.2"
+  },
+  "devDependencies": {
+    "elm-live": "4.0.0-rc.1"
+  }
+}
