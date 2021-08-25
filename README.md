@@ -18,7 +18,7 @@ Elm front end for dusty codes portfolio
 
 > Make sure to have elm-live installed using `npm install --global elm-live@next`
 
-- Run `elm-live src/Main.elm -- --output=elm.js`
+- Run `elm-live src/Main.elm -H -u -o -- --output=elm.js`
 - Open the started server in your browser
 
 ### For Prod
